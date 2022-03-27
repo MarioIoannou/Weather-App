@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Weathery</string>
+    <string name="api_key">https://api.openweathermap.org/data/2.5/weather?{lat}&amp;lon={lon}&amp;appid={API key}&amp;units=metric</string>
+</resources>
