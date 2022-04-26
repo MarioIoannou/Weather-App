@@ -1,9 +1,8 @@
-package com.marioioannou.weatherapp
+package com.marioioannou.weatherapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.marioioannou.weatherapp.databinding.ActivityAboutBinding
-import com.marioioannou.weatherapp.databinding.ActivityMainBinding
 
 private lateinit var binding: ActivityAboutBinding
 
@@ -13,7 +12,5 @@ class AboutActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityAboutBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-
     }
 }

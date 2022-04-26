@@ -9,7 +9,7 @@
     android:orientation="vertical"
     android:gravity="top"
     android:padding="25dp"
-    tools:context=".AboutActivity">
+    tools:context=".ui.AboutActivity">
 
     <View
         android:id="@+id/view"
@@ -39,6 +39,8 @@
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:padding="5dp"
+            app:cardBackgroundColor="@color/floral_white"
+            android:forceDarkAllowed="false"
             app:cardCornerRadius="13dp">
 
             <LinearLayout

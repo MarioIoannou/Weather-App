@@ -1,11 +1,10 @@
 package com.marioioannou.weatherapp.api
 
-import com.marioioannou.weatherapp.api.Consts.Companion.BASE_URL
+import com.marioioannou.weatherapp.utils.Consts.Companion.BASE_URL
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 
-object RetrofitInstance {
+object RetrofitService {
 
     private val retrofit by lazy {
         Retrofit.Builder()
