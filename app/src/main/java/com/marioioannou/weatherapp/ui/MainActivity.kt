@@ -158,10 +158,9 @@ class MainActivity : AppCompatActivity() {
             is ScreenState.Error -> {
                 Log.e(TAG,"ScreenState.Error")
                 binding.progressBar.isVisible = false
-                binding.imgNoWifi.isVisible = true
+                //binding.imgNoWifi.isVisible = true
                 notConnected()
             }
-            null -> TODO()
         }
     }
 

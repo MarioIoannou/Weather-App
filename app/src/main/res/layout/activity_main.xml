@@ -441,6 +441,24 @@
 
     </LinearLayout>
 
+    <!--    <ImageView-->
+<!--        android:id="@+id/img_no_wifi"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginStart="180dp"-->
+<!--        android:layout_marginTop="140dp"-->
+<!--        android:src="@drawable/no_wifi"-->
+<!--        android:visibility="gone"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.0"-->
+<!--        app:tint="@color/dark_salmon"-->
+<!--        tools:ignore="ContentDescription"-->
+<!--        tools:visibility="visible" />-->
+
     <ProgressBar
         android:id="@+id/progress_bar"
         android:layout_width="60dp"
@@ -452,25 +470,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.199"
-        tools:visibility="visible" />
-
-    <ImageView
-        android:id="@+id/img_no_wifi"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="180dp"
-        android:layout_marginTop="140dp"
-        android:src="@drawable/no_wifi"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:tint="@color/dark_salmon"
-        tools:ignore="ContentDescription"
+        app:layout_constraintVertical_bias="0.177"
         tools:visibility="visible" />
 
     <ImageView
